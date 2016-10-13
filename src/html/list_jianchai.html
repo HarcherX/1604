@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>list-jianchai</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<script src="../js/jquery-1.12.0.js"></script>
+	<script src="../js/common.js"></script>
+	<script src="../js/list_jianchai.js"></script>
+	<script>			
+	</script>
+</head>
+<body>
+<!--top-->
+<div class="f-cb index_top">
+	<div class="index_t_1">
+		<ul class="wuli left">
+			<li><a href="#"><img src="../img/weixin.png"/>关注</a></li>
+			<li><a href="#"><img src="../img/tel.png"/>手机客户端</a></li>
+		</ul>
+		<ul class="huli right">
+			<li><a href="login.html">登录</a></li>
+			<li><a href="register.html">注册</a></li>
+			<li><a href="#">我的为为</a></li>
+			<li><a href="shopping.html">购物车(<span id="shoplist1">0</span>)</a></li>
+			<li><a href="#">收藏中心 网站地图</a></li>
+			<li><a href="#">手机客户端</a></li>
+		</ul>
+	</div>
+</div>
+<!--title-->
+<div class="title f-cb .f-cb:after">
+	<div class="title_box">
+		<div class="left"><a href="index.html"><img src="../img/logo.png"/></a></div>
+		<dl class="left">
+			<dt>
+				<p class="alone left">商品</p>
+				<p class="left">文章</p>
+				<p class="left">图片</p>
+			</dt>
+			<dd>
+				<input class="left" type="text"/>
+				<button class="left">搜索</button>
+			</dd>
+		</dl>
+	</div>
+</div>
+<!--right_topic-->
+<div class="right_topic">
+	<div class="dopa">
+		<div class="dopa1" id="dopa">
+			<a href="#">
+				<div>
+					<img src="../img/user.gif"/>
+				</div>
+				<span>会员登录</span>
+			</a>
+		</div>
+		<div class="dopa2 f-pr">
+			<a href="shopping.html">
+				<div></div>
+				<p class="">购物车</p>
+			</a>
+			<span class="shoplist2 f-pa">0</span>
+		</div>
+		<div class="dopa1">
+			<a href="#">
+				<div>
+					<img src="../img/qq.jpg"/>
+				</div>
+		</a>
+		</div>	
+	</div>
+	<div class="goTop" id="dopa1">
+			<a href="#">
+				<div>
+				</div>
+				<span>返回顶部</span>
+			</a>
+	</div>
+</div>
+<!--list_nav-->
+<div class="list_nav">
+	<div class="list_nav_box ">
+		<div class="nav_left f-pr left" id="gost">
+			<h2 class="gost">精品分类推荐</h2>
+			<div class="f-pa">
+					<h2>家具</h2>
+					<p><a href="#">卧室</a><a href="#">客厅</a><a href="#">餐厅</a><a  class="alone" href="#">书房</a></p>
+					<p><a href="#">儿童房</a><a href="#">家饰</a><a  class="alone" href="#">办公家具</a></p>
+					<h2>建材</h2>
+					<p><a href="#">基础建材</a><a href="#">陶瓷/大理石</a><a  class="alone" href="#">卫浴</a></p>
+					<p><a href="#">集成吊顶</a><a href="#">橱柜</a><a  class="alone" href="#">淋浴房</a></p>
+					<p><a href="#">厨卫电器</a><a class="alone" href="#">地板/榻榻米</a></p>
+					<p><a href="#">移动衣柜</a><a  class="alone" href="#">门窗</a></p>
+					<h2>装修服务</h2>
+					<p><a href="#">免费设计</a><a href="#">装修设计</a><a href="#">装修大全</a></p>
+					<p><a href="#">效果图</a><a href="#">家具图层</a><a class="alone" href="#">精品专题</a></p>
+					<p><a href="#">装修前</a><a href="#">装修中</a><a class="alone" href="#">装修后</a></p>
+					<p><a href="#">装修风水</a><a href="#">装修学堂</a><a class="alone" href="#">家居生活</a></p>
+					<p><a href="#">植物花卉</a><a href="#">宠物</a><a class="alone" href="#">手工DIY</a></p>
+			</div>
+		</div>
+		<div class="nav_right left f-cb f-pr">
+			<ul>
+				<li><a class="aa" href="#">首页</a><li>
+				<li id="select1">
+					<a class="aa" href="list_jianchai.html">建材</a>
+					<div class="select01 f-cb f-pa">
+						<div class="select01_l left">
+							<div class="box1">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="box2">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="box3">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+								<p>
+									<a href="#">其他辅料</a>
+								</p>
+							</div>
+						</div>
+						<div class="select01_c left">
+							<div class="box1">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="box2">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+								</p>
+							</div>
+							<div class="box3">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="box4">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+								</p>
+							</div>
+						</div>
+						<div class="select01_r left">
+							<div class="box1">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="box2">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+							</div>
+							<div class="box3">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+									<a  class="alone" href="#">油漆涂料</a>
+								</p>
+								<p>
+									<a href="#">其他辅料</a>
+								</p>
+							</div>
+							<div class="box4">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">油漆涂料</a>
+									<a href="#">餐厅</a>
+								</p>
+							</div>
+							<div class="box5">
+								<h2>基础建材</h2>
+								<p>
+									<a href="#">其他辅料</a>
+									<a href="#">餐厅</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li id="select2">
+					<a class="aa" href="list_jiaju.html">家具家纺</a>
+					<div class="select02 f-cb f-pa">
+						<div class="select01_l left">
+							<div class="box1">
+								<h2>卧室</h2>
+								<p>
+									<a href="#">床</a>
+									<a href="#">床垫</a>
+									<a href="#">床头柜</a>
+									<a  class="alone" href="#">衣柜</a>
+									<a  class="alone" href="#">斗柜</a>
+								</p>
+							</div>
+							<div class="box2">
+								<h2>儿童床</h2>
+								<p>
+									<a href="#">儿童床</a>
+									<a href="#">儿童床垫</a>
+									<a href="#">儿童床头柜</a>
+									<a  class="alone" href="#">儿童衣柜</a>
+								</p>
+								<p>
+									<a href="#">儿童书桌/电脑台</a>
+									<a href="#">儿童柜类</a>
+									<a href="#">儿童房套装</a>					
+								</p>
+							</div>
+							<div class="box3">
+								<h2>软装</h2>
+								<p>
+									<a href="#">窗帘</a>
+									<a href="#">壁纸</a>
+									<a href="#">软包</a>
+								</p>
+							</div>
+						</div>
+						<div class="select01_c left">
+							<div class="box1">
+								<h2>客厅</h2>
+								<p>
+									<a href="#">沙发</a>
+									<a href="#">茶几/边几</a>
+									<a href="#">电视柜</a>
+									<a  class="alone" href="#">鞋柜</a>
+								</p>
+								<p>
+									<a href="#">酒柜/装饰柜</a>
+									<a href="#">休闲装/凳</a>
+									<a href="#">间厅/玄关柜</a>
+								</p>
+								<p>
+									<a href="#">客厅套装</a>
+								</p>
+								
+							</div>
+							<div class="box2">
+								<h2>办公家具</h2>
+								<p>
+									<a href="#">办公桌</a>
+									<a href="#">办公桌</a>
+									<a href="#">办公桌</a>
+									<a href="#">办公桌</a>
+								</p>
+								<p>
+									<a href="#">办公桌</a>
+									<a href="#">办公桌</a>
+									<a href="#">办公桌</a>
+								</p>
+							</div>
+							<div class="box3">
+								<h2>家纺</h2>
+								<p>
+									<a href="#">凉席</a>
+									<a  class="alone" href="#">床上用品</a>
+									<a  class="alone" href="#">床上用品</a>
+									<a  class="alone" href="#">床上四件套</a>
+								</p>
+							</div>
+						</div>
+						<div class="select01_r left">
+							<div class="box1">
+								<h2>餐厅</h2>
+								<p>
+									<a href="#">餐桌</a>
+									<a href="#">餐桌</a>
+									<a href="#">餐桌</a>
+									<a  class="alone" href="#">油餐桌料</a>
+								</p>
+							</div>
+							<div class="box2">
+								<h2>书房</h2>
+								<p>
+									<a href="#">书/办公区</a>
+									<a href="#">书柜/树胶</a>
+									<a href="#">书椅/转移</a>
+									<a  class="alone" href="#">书房套装</a>
+								</p>
+							</div>
+							<div class="box3">
+								<h2>家饰</h2>
+								<p>
+									<a href="#">家居摆件</a>
+									<a href="#">挂钟</a>
+									<a href="#">香薰织品</a>
+									<a  class="alone" href="#">步子织品</a>
+								</p>
+								<p>
+									<a href="#">挂钟</a>
+								</p>
+							</div>
+						</div>
+					</div>				
+				</li>
+				<li><a class="aa" href="#">品牌</a></li>
+				<li><a class="aa" href="#">店铺</a></li>
+				<li><a class="aa" href="#">装修攻略</a></li>
+				<li><a class="aa" href="#">装修图库</a></li>
+			</ul>
+		</div>
+	</div>	    
+</div>
+<!--list_banner-->
+<div class="list_banner list_bili">
+	<div class="list_banner_box list_bili_box">
+		<div class="box1">
+			<p>
+				<img src="../img/home.png"/>
+				<a href="#">首页</a>
+				<span>所有家装主材</span>
+			</p>
+		</div>
+		<div class="box2 f-cb">
+			<div class="l_b_l bili_z left" id="l_b_l">
+				<h2>所有建材分类</h2>
+				<div class="f-pr">
+					<h3><img src="../img/foc.png"/>基础建材</h3>
+					<p>
+						<a href="#">照块</a>
+						<a href="#">明模块</a>
+						<a href="#">照明模块</a>
+					</p>
+					<p>
+						<a href="#">照明块</a>
+						<a href="#">照明模块</a>
+					</p>
+					<div class="list1 f-pa">
+							<h3>基础建材</h3>
+							<p>
+								<a href="#">照块</a>
+								<a href="#">明模块</a>
+								<a href="#">照明模块</a>
+								<a href="#">床</a>
+							</p>
+							<p>
+								
+								<a href="#">照明模块</a>
+							</p>
+					</div>
+				</div>
+				<div class="f-pr">
+					<h3><img src="../img/foc.png"/>瓷砖/大理石</h3>
+					<p>
+						<a href="#">照模块</a>
+						<a href="#">照明模块</a>
+						<a href="#">灯暖模块</a>
+					</p>
+					<p>
+						<a href="#">灯模块</a>
+						<a href="#">灯暖模块</a>
+					</p>
+					<div class="list1 f-pa">
+							<h3>基础建材</h3>
+							<p>
+								<a href="#">照块</a>
+								<a href="#">明模块</a>
+								<a href="#">照明模块</a>
+								<a href="#">床</a>
+							</p>
+							<p>
+								
+								<a href="#">照明模块</a>
+							</p>
+					</div>
+				</div>
+				<div class="f-pr">
+					<h3><img src="../img/foc.png"/>灯暖模块</h3>
+					<p>
+						<a href="#">模块</a>
+						<a href="#">灯暖模</a>
+						<a href="#">床头柜</a>
+					</p>
+					<p>
+						<a href="#">灯暖模块</a>
+						<a href="#">灯暖模块</a>
+					</p>
+					<div class="list1 f-pa">
+							<h3>基础建材</h3>
+							<p>
+								<a href="#">照块</a>
+								<a href="#">明模块</a>
+								<a href="#">照明模块</a>
+								<a href="#">床</a>
+							</p>
+							<p>
+								
+								<a href="#">照明模块</a>
+							</p>
+					</div>
+				</div>
+				<div class="f-pr">
+					<h3><img src="../img/foc.png"/>集成吊顶</h3>
+					<p>
+						<a href="#">床</a>
+						<a href="#">灯暖块</a>
+						<a href="#">床头柜</a>
+					</p>
+					<p>
+						<a href="#">灯暖模块</a>
+						<a href="#">床垫</a>
+					</p>
+					<div class="list1 f-pa">
+							<h3>基础建材</h3>
+							<p>
+								<a href="#">照块</a>
+								<a href="#">明模块</a>
+								<a href="#">照明模块</a>
+								<a href="#">床</a>
+							</p>
+							<p>
+								
+								<a href="#">照明模块</a>
+							</p>
+					</div>
+				</div>
+				<div class="f-pr">
+					<h3><img src="../img/foc.png"/>橱柜</h3>
+					<p>
+						<a href="#">床</a>
+						<a href="#">灯暖模块</a>
+						<a href="#">床头柜</a>
+					</p>
+					<p>
+						<a href="#">床</a>
+						<a href="#">床垫</a>
+					</p>
+					<div class="list1 f-pa">
+							<h3>基础建材</h3>
+							<p>
+								<a href="#">照块</a>
+								<a href="#">明模块</a>
+								<a href="#">照明模块</a>
+								<a href="#">床</a>
+							</p>
+							<p>
+								
+								<a href="#">照明模块</a>
+							</p>
+					</div>
+				</div>
+				<p class="aikeng"><img src="../img/aikeng.jpg"/></p>
+			</div>
+			<div class="l_b_r bili_x left">
+				<div class="lubo f-pr">
+					<div>
+						<img src="../img/lubo1.jpg">
+						<img src="../img/lubo2.jpg">
+						<img src="../img/lubo3.jpg">
+					</div>	
+						<dl class="f-pa">
+							<dd class="action"></dd>
+							<dd></dd>
+							<dd></dd>
+						</dl>
+				</div>
+				<div class="sobig">
+					<dl>
+						<dt><img src="../img/shitou1.jpg"></dt>
+						<dd><a href="information.html">榕都石材 雅思诺黑金花人造石...</a></dd>
+						<dd class="fox"><b>￥</b>680<span class="right">立即购买<span></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/shitou2.jpg"></dt>
+						<dd><a href="information.html">榕都石材 雅思诺黑金花人造石...</a></dd>
+						<dd class="fox"><b>￥</b>680<span class="right">立即购买<span></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/shitou3.jpg"></dt>
+						<dd><a href="information.html">榕都石材 雅思诺黑金花人造石...</a></dd>
+						<dd class="fox"><b>￥</b>680<span class="right">立即购买<span></dd>
+					</dl>
+					<dl>
+						<dt><img src="../img/shitou4.jpg"></dt>
+						<dd><a href="information.html">榕都石材 雅思诺黑金花人造石...</a></dd>
+						<dd class="fox"><b>￥</b>s680<span class="right">立即购买<span></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--jianchai_main-->
+<div class="jc_main">
+	<div class="jc_main_box f-cb">
+		<div class="jc_main1">
+			<h2>精品特卖</h2>
+			<div class="box">
+				<div class="box1 left">
+					<img src="../img/hecheng.jpg">
+				</div>
+				<div class="box2 f-cb left">
+					<div class="left">
+						<img src="../img/linyu1.jpg">
+						<img class="biubiu" src="../img/linyu2.jpg">
+					</div>
+					<div class="alone left">
+						<img src="../img/linyu3.jpg">
+						<img class="biubiu" src="../img/linyu4.jpg">
+					</div>
+					<div class="left">
+						<img src="../img/linyu5.jpg">
+						<img class="biubiu" src="../img/linyu6.jpg">
+					</div>
+				</div>
+				<div class="box3 left">
+					<img src="../img/longtou.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="jc_main2 f-cb">
+			<h2>1F 家装主材•基础建材</h2>
+			<div class="box">
+				<div class="box1 left">
+					<img src="../img/meibi1.jpg">
+				</div>
+				<div class="box2 f-cb left">
+					<div class="left">
+						<img src="../img/linyu1.jpg">
+						<img class="biubiu" src="../img/linyu2.jpg">
+					</div>
+					<div class="alone left">
+						<img src="../img/linyu3.jpg">
+						<img class="biubiu" src="../img/linyu4.jpg">
+					</div>
+					<div class="left">
+						<img src="../img/linyu5.jpg">
+						<img class="biubiu" src="../img/linyu6.jpg">
+					</div>
+				</div>
+				<div class="box3 left">
+					<img src="../img/longtou.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="jc_main3 f-cb">
+			<h2>2F 家装主材•吊顶 浴霸 净水</h2>
+			<div class="box">
+				<div class="box1 left">
+					<img src="../img/meibi2.jpg">
+				</div>
+				<div class="box2 f-cb left">
+					<div class="left">
+						<img src="../img/linyu1.jpg">
+						<img class="biubiu" src="../img/linyu2.jpg">
+					</div>
+					<div class="alone left">
+						<img src="../img/linyu3.jpg">
+						<img class="biubiu" src="../img/linyu4.jpg">
+					</div>
+					<div class="left">
+						<img src="../img/linyu5.jpg">
+						<img class="biubiu" src="../img/linyu6.jpg">
+					</div>
+				</div>
+				<div class="box3 left">
+					<img src="../img/longtou.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="jc_main4 f-cb">
+			<h2>3F 家装主材•客卧主材</h2>
+			<div class="box">
+				<div class="box1 left">
+					<img src="../img/meibi3.jpg">
+				</div>
+				<div class="box2 f-cb left">
+					<div class="left">
+						<img src="../img/linyu1.jpg">
+						<img class="biubiu" src="../img/linyu2.jpg">
+					</div>
+					<div class="alone left">
+						<img src="../img/linyu3.jpg">
+						<img class="biubiu" src="../img/linyu4.jpg">
+					</div>
+					<div class="left">
+						<img src="../img/linyu5.jpg">
+						<img class="biubiu" src="../img/linyu6.jpg">
+					</div>
+				</div>
+				<div class="box3 left">
+					<img src="../img/longtou.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="jc_main5 f-cb">
+			<h2>4F 家装主材•全屋定制</h2>
+			<div class="box">
+				<div class="box1 left">
+					<img src="../img/meibi4.jpg">
+				</div>
+				<div class="box2 f-cb left">
+					<div class="left">
+						<img src="../img/linyu1.jpg">
+						<img class="biubiu" src="../img/linyu2.jpg">
+					</div>
+					<div class="alone left">
+						<img src="../img/linyu3.jpg">
+						<img class="biubiu" src="../img/linyu4.jpg">
+					</div>
+					<div class="left">
+						<img src="../img/linyu5.jpg">
+						<img class="biubiu" src="../img/linyu6.jpg">
+					</div>
+				</div>
+				<div class="box3 left">
+					<img src="../img/longtou.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--footer-->
+<div class="mfooter">
+	<div class="mfooter_box">
+		<div class="boxtop f-cb">
+			<div class="box1 left">
+				<h2>客服在线</h2>
+				<div class="foot_tel">
+					<h3>021-56457299</h3>
+					<p>周一到周五9:00-17:30</p>
+				</div>
+			</div>
+			<div class="box2 f-cb left">
+				<dl>
+					<dt>帮助中心</dt>
+					<dd>忘记密码</dd>
+					<dd>积分兑换说明</dd>
+					<dd>积分细则</dd>
+				</dl>
+				<dl>
+					<dt>帮助中心</dt>
+					<dd>忘记密码</dd>
+				</dl>
+				<dl>
+					<dt>帮助中心</dt>
+					<dd>忘记密码</dd>
+				</dl>
+				<dl>
+					<dt>帮助中心</dt>
+					<dd>忘记密码</dd>
+					<dd>积分兑换说明</dd>
+					<dd>积分细则</dd>
+				</dl>
+				<dl>
+					<dt>帮助中心</dt>
+					<dd>忘记密码</dd>
+					<dd>积分兑换说明</dd>
+				</dl>
+			</div>
+			<div class="box3 left">
+				<div class="box3_left left">
+					<p class="p1">为为网APP</p>
+					<p class="p2">
+						<img src="../img/weixin.gif"/>
+					</p>
+					<p class="p3">下载移动客户端</p>
+				</div>
+				<div class="box3_right left">
+					<p class="p1">为为网微信</p>
+					<p class="p2">
+						<img src="../img/weixin.gif"/>
+					</p>
+					<p class="p3">为为网官方微信</p>
+				</div>
+			</div>
+		</div>
+		<div class="boxbottom">
+			<p>
+				<a href="#">首页</a>|
+				<a href="#">招聘英才</a>|
+				<a href="#">合作及洽谈</a>|
+				<a href="#">联系我们</a>|
+				<a href="#">关于我们</a>|
+				<a href="#">友情链接</a>
+			</p>
+			<p>Copyright 2015 沪ICP备08001311号 | 营业执照</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
